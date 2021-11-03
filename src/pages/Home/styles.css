@@ -1,0 +1,88 @@
+.App1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.p1 {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  max-width: 450px;
+}
+
+.p2 {
+  font-size: 24px;
+  color: #7C8391;
+  font-family: 'Roboto', sans-serif;
+  line-height: 28px;
+  display: block;
+  max-width: 350px;
+}
+
+.block {
+  background: #FFF;
+  border-radius: 15px;
+  width: 350px;
+  height: 500px;
+  padding: 20px 50px 0 45px;
+}
+
+.titleh2 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.formulario {
+  margin-top: 30px;
+}
+
+/* .formulario input {
+  border: #fff;
+  background-color: #F1F1F1;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 14px;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+  color: #5E5E5E;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.formulario input::placeholder {
+  color: #5E5E5E;
+  font-weight: bold;
+  font-size: 15px;
+} */
+
+.button1 {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  height: 50px;
+  width: 365px;
+  background-color: #E86120;
+  border-radius: 12px;
+  align-items: center;
+  margin-top: 30px;
+  transition: background-color 0.2s;
+  transition: margin-top 0.3s;
+}
+
+.button1 p {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: auto;
+}
+
+.button1:hover {
+  background-color: rgba(232, 97, 32, 85%);
+  margin-top: 25px;
+}
